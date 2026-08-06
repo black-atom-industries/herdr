@@ -69,9 +69,8 @@ deno task dev       # regenerate on template changes
 deno task update    # refresh the cached core CLI
 ```
 
-Templates use Eta syntax and semantic Black Atom colors only. `surface1` and `surface_dim` are a
-small blend from `ui.bg.active` toward `ui.fg.disabled`; this keeps Herdr's separators and scrollbar
-track distinct without reaching into core primaries.
+Templates use Eta syntax and semantic Black Atom colors only. `surface_dim` uses `ui.bg.panel`, and
+`surface1` is a small blend from `ui.bg.active` toward `ui.fg.disabled`.
 
 ## License
 
