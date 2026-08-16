@@ -11,8 +11,8 @@ deno task dev
 
 ## Rules
 
-- Edit `themes/<collection>/collection.template.toml`, then regenerate committed outputs.
-- Keep all six collection templates identical.
+- Edit `themes/collection.template.toml`, then regenerate committed outputs.
+- Generated outputs live under `themes/<collection>/`.
 - Use `theme.ui`, `theme.palette`, or `theme.syntax`; never access `theme.primaries` or
   `theme.accents` directly.
 - Every generated file must retain exactly one `BEGIN BLACK ATOM LIVERY THEME` / `END BLACK ATOM
